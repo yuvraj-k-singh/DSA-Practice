@@ -1,0 +1,43 @@
+/*
+WAP: Right Rotate Array BF
+Time Complexity: O(2n)
+Space Complexity: O(n)
+Date: 10-jan-2026
+ */
+
+import java.util.Scanner;
+
+public class RightRotateArrayBF {
+    public static void main(String[] args) {
+        int[] arr = {1,2,3,4,5,6};
+        int[] brr = new int[arr.length];
+        int n = arr.length;
+        int index = 0;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the value of K steps: ");
+        int k = sc.nextInt();
+
+        k = k%n; // to find k value
+
+        System.out.println();
+        System.out.println("Arrays element before right rotation: ");
+        for(int x : arr){
+            System.out.print(x+" ");
+        }
+
+        for(int i=n-k; i<n; i++){
+            brr[index++] = arr[i];
+        }
+
+        for(int i=0; i<n-k; i++){
+            brr[index++] = arr[i];
+        }
+
+        System.out.println();
+        System.out.println("\nArrays element after right rotation: ");
+        for(int x : brr){
+            System.out.print(x+" ");
+        }
+    }
+}
