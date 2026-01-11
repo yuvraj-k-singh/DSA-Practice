@@ -1,5 +1,5 @@
 /*
-WAP: Left Rotate Array BF
+WAP: GFG Left Rotate Array BF
 Time Complexity: O(n)
 Space Complexity: O(n)
 Date: 10-jan-2026
