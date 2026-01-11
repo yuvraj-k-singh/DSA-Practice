@@ -1,5 +1,5 @@
 /*
-WAP: Left Rotate Array
+WAP: GFG Left Rotate Array
 Time Complexity: O(n)
 Space Complexity: O(1)
 Date: 10-jan-2026
@@ -7,7 +7,7 @@ Date: 10-jan-2026
 
 import java.util.Scanner;
 
-public class LeftRotateArray {
+public class GFGLeftRotateArray {
     public static int[] rotate(int[] arr, int k, int n) {
         rev(arr, 0, k-1);
         rev(arr, k, n-1);

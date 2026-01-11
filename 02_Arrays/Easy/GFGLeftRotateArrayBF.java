@@ -1,13 +1,13 @@
 /*
 WAP: Left Rotate Array BF
-Time Complexity: O(2n)
+Time Complexity: O(n)
 Space Complexity: O(n)
 Date: 10-jan-2026
  */
 
 import java.util.Scanner;
 
-public class LeftRotateArrayBF{
+public class GFGLeftRotateArrayBF {
     public static void main(String[] args){
         int[] arr = {1,2,3,4,5,6};
         int n = arr.length;
