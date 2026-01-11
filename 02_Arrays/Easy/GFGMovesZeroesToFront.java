@@ -1,11 +1,11 @@
 /*
-WAP: Moves Zeroes To Front
+WAP: GFG Moves Zeroes To Front
 Time Complexity: O(n)
 Space Complexity: O(1)
 Date: 10-jan-2026
 */
 
-public class MovesZeroesToFront {
+public class GFGMovesZeroesToFront {
     public static int[] movesZeroes(int[] arr) {
         int nonZeroes = arr.length -1;
         for(int i=arr.length -1; i>=0; i--){
