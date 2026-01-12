@@ -1,7 +1,7 @@
 /*
 WAP: GFG Adding One
-Time Complexity: O(n)
-Space Complexity: O(1)
+Time Complexity: O(2n)
+Space Complexity: O(n)
 Date: 12-jan-2026
 */
 
