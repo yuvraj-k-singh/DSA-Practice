@@ -8,13 +8,9 @@ Date: 14-jan-2026
 import java.util.ArrayList;
 
 public class GFGRemoveDuplicates {
-
     public static ArrayList<Integer> removeDuplicate(int[] arr){
         ArrayList<Integer> ans = new ArrayList<>();
         ans.add(arr[0]);
-
-        System.out.println("Array elements are: ");
-        for(int x : arr) System.out.print(x + " ");
 
         for(int i=1; i<arr.length; i++){
             if(arr[i]!=arr[i-1]){
@@ -26,6 +22,9 @@ public class GFGRemoveDuplicates {
 
     public static void main(String[] args){
         int[] arr = {1,1,2,2,2,3,4};
+
+        System.out.println("Array elements are: ");
+        for(int x : arr) System.out.print(x + " ");
 
         ArrayList<Integer> ans = removeDuplicate(arr);
 
