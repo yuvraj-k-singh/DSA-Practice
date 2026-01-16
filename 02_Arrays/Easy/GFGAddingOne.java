@@ -13,7 +13,9 @@ public class GFGAddingOne {
         int carry = 1;
         ArrayList<Integer> ans = new ArrayList<>();
         for(int i = arr.length - 1; i>=0; i--){
-            if(arr[i] < 9){
+            if(carry==0){
+                ans.add(arr[i]);
+            }else if(arr[i] < 9){
                 ans.add(arr[i] + carry);
                 carry = 0;
             }else{
@@ -28,7 +30,7 @@ public class GFGAddingOne {
     }
 
     public static void main(String[] args){
-        int[] arr = {9};
+        int[] arr = {9,2};
 
         System.out.println("Array elements before: ");
         for(int x : arr){
