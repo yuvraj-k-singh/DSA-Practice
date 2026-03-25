@@ -16,7 +16,7 @@ public class MaxConsecutiveOnes {
                 if(max < count) max = count;
             } else count = 0;
         }
-        return max;
+        return (max == Integer.MIN_VALUE) ? 0 : max;
     }
 
     public static void main(String[] args){
