@@ -1,5 +1,5 @@
 /*
-WAP: GFG Kth Pair Difference
+WAP: Kth Pair Difference
 Time Complexity: O(n)
 Space Complexity: O(n)
 Date: 01-apr-2026
