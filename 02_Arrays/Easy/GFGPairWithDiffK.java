@@ -2,7 +2,7 @@
 WAP: GFG Pair With Difference K
 Time Complexity: O(n)
 Space Complexity: O(n)
-Date: 01-apr-2026
+Date: 02-apr-2026
 */
 
 
