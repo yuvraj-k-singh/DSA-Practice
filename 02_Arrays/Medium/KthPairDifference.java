@@ -5,7 +5,7 @@ Space Complexity: O(n)
 Date: 01-apr-2026
 */
 
-import java.util.HashSet;
+import java.util.HashMap;
 
 public class KthPairDifference {
     public static void main(String[] args){
@@ -18,13 +18,19 @@ public class KthPairDifference {
     }
 
     private static int kthDifference(int[] arr, int target) {
-        HashSet<Integer> set = new HashSet<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
         int count = 0;
 
         for(int x : arr){
-            int rem = Math.abs(target - x);
-            if(set.contains(rem)) count++;
-            set.add(x);
+            map.put(x, map.getOrDefault(x, 0) + 1);
+        }
+
+        for(int key : map.keySet()){
+            if(target == 0){
+                if(map.get(key) > 1) count++;
+            }else{
+                if(map.containsKey(target + key)) count++;
+            }
         }
         return count;
     }
