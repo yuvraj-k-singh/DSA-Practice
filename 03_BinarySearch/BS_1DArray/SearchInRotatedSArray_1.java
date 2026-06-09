@@ -1,14 +1,14 @@
 /*
-WAP: Search In Sorted Array 1
+WAP: Search In Rotated Sorted Array 1
 Time Complexity: O(logN)
 Space Complexity: O(1)
 Date: 09-june-2026
 */
 
-public class SearchInSortedArray_1 {
+public class SearchInRotatedSArray_1 {
     public static void main(String[] args){
         int[] arr = {5, 6, 7, 8, 9, 10, 1, 2, 3};
-        int x = 1;
+        int x = 5;
 
         int index = searchRotated1(arr, x);
         if(index == -1) System.out.println("The target element "+x+" is not available!");
