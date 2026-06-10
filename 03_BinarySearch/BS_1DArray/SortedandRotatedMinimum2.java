@@ -7,7 +7,7 @@ Date: 10-june-2026
 
 public class SortedandRotatedMinimum2 {
     public static void main(String[] args) {
-        int[] arr = {2,5,6,0,0,1,2};
+        int[] arr = {1,1};
 
         int min = rotatedMin(arr);
 
@@ -22,6 +22,7 @@ public class SortedandRotatedMinimum2 {
             int mid = low+(high-low)/2;
 
             if(arr[low]==arr[mid] && arr[mid]==arr[high]){
+                min = Math.min(min, arr[low]);
                 low++;
                 high--;
                 continue;
