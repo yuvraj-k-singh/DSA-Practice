@@ -1,7 +1,7 @@
 /*
 WAP: Majority Element2 BS
-Time Complexity: O(N^2)
-Space Complexity: O(1)
+Time Complexity: O(N)
+Space Complexity: O(N)
 Date: 28-june-2026
 */
 
