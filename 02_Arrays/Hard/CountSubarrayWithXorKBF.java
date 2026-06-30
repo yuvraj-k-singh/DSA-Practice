@@ -1,7 +1,7 @@
 /*
 WAP: Count Subarray With Xor K BF
-Time Complexity: O(N)
-Space Complexity: O(N)
+Time Complexity: O(N^2)
+Space Complexity: O(1)
 Date: 01-july-2026
 */
 
