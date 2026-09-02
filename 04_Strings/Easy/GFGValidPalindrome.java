@@ -5,7 +5,7 @@ Space Complexity: O(1)
 Date: 02-sep-2026
 */
 
-public class ValidPalindrome {
+public class GFGValidPalindrome {
     public static void main(String[] args) {
         String str = "namaN";
 
