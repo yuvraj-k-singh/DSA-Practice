@@ -9,11 +9,11 @@ public class RomanToIntegerOptimal {
     public static void main(String[] args){
         String s = "VIII";
 
-        int val = romanToIntegerBF(s);
+        int val = romanToIntegerOptimal(s);
         System.out.println("The value of "+s+" is: "+val);
     }
 
-    public static int romanToIntegerBF(String s){
+    public static int romanToIntegerOptimal(String s){
         int ans = 0;
 
         for(int i=0; i<s.length()-1; i++){
