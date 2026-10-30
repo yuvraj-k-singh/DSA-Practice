@@ -21,7 +21,7 @@ public class MaximumAverageSubarrayIOptimal {
 
         for(int i=0; i<nums.length; i++){
             sum += nums[i];
-            if(i-left+1 == k){
+            if(i-left+1 >= k){
                 max = Math.max(max, sum);
                 sum -= nums[left++];
             }
