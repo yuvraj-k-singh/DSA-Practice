@@ -1,6 +1,6 @@
 /*
 WAP: Min Size Subarray Sum Optimal
-Time Complexity: O(n*2)
+Time Complexity: O(n)
 Space Complexity: O(1)
 Date: 30-oct-2026
 */
