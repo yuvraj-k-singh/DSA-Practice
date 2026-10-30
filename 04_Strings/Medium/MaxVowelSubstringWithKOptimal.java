@@ -7,7 +7,7 @@ Date: 30-oct-2026
 
 public class MaxVowelSubstringWithKOptimal {
     public static void main() {
-        String s = "aeiou";
+        String s = "leetcode";
         int k = 3;
 
         int ans = maxVowel(s, k);
@@ -27,6 +27,7 @@ public class MaxVowelSubstringWithKOptimal {
                 if(isVowel(s.charAt(left))) {
                     cnt--;
                 }
+                left++;
             }
         }
         return max;
